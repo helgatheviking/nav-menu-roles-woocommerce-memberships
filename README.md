@@ -1,2 +1,2 @@
-# Nav Menu Roles + WooCommerce Memberships Bridge
-Add WooCommerce Membership Plans to Nav Menu Roles
+# Nav Menu Roles + WooCommerce Memberships
+A bridge plugin that adds WooCommerce Membership Plans to Nav Menu Roles menu options
