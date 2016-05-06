@@ -71,6 +71,8 @@ function nmw_wcm_item_visibility( $visible, $item ){
                 if ( wc_memberships_is_user_active_member( $user_id, $plan->id ) ){
                     
                     $visible = true;
+
+                    break;
                 
                 } else {
                     
