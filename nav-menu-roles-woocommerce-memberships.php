@@ -40,7 +40,7 @@ function nmw_wcm_new_roles( $roles ){
 	
 	foreach( $plans as $plan ){
 	    
-        $roles[$plan->slug] = $plan->name;
+        $roles['wc_membership_' . $plan->id] = $plan->name;
     
 	}
 	
@@ -66,9 +66,9 @@ function nmw_wcm_item_visibility( $visible, $item ){
         
         foreach( $plans as $plan ){
             
-            if( in_array( $plan->slug, $item->roles ) ){
+            if( in_array( 'wc_membership_' . $plan->id, $item->roles ) ){
                   
-                if ( wc_memberships_is_user_active_member( $user_id, $plan->slug ) ){
+                if ( wc_memberships_is_user_active_member( $user_id, $plan->id ) ){
                     
                     $visible = true;
                 
