@@ -20,5 +20,5 @@ All three plugins must be installed, and activated in order to get the desired r
 
 ## Donate 
 
-If you are using this plugin to help make you money, why not [send me a cocktail](https://www.paypal.me/helgatheviking)?
+If you are using this plugin to help make you money, why not how your appreciation by [donating to my handball team](https://www.youcaring.com/wnt-residency)?
 
